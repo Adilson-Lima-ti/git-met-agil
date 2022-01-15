@@ -1,0 +1,66 @@
+﻿Índice
+Git Git Hub	1
+$ git add .	1
+$ git rm --cached <file>	1
+$ git restore <file>	1
+$ git log --oneline	1
+$ git restore --staged <file>	1
+$ git commit --amend --no-edit	1
+$ git reset bbc9044	1
+$ git reset bbc9044 --soft	1
+$ git reset bbc9044 --hard	1
+$ git diff	1
+$ git diff <file>	1
+$ git diff a95be63..a5de038 l	1
+$ git branch	2
+$ git branch -a	2
+$ git checkou -b ‘brachTest’	2
+$ git checkout master	2
+$ git merge <nome da branch>	2
+$ gir rebase bbc9044	2
+$ git branch -D branchTest	2
+Git Git Hub
+$ git add . 
+	Adicionar arquivos
+$ git rm --cached <file>
+	remover arquivo da de ser monitorado pelo git
+$ git restore <file>
+	para restaurar arquivo da alteração antes do commit
+$ git log --oneline
+	para log simplificado, apenas uma linha	
+$ git restore --staged  <file>
+	para retirar da stage e voltar para modificados
+$ git commit --amend --no-edit
+	acrescenta uma alteração ao último commit.
+	Esse trecho nâo tera como voltar…. Terá que ser algo certo.
+$ git reset bbc9044
+	volta para o estágio de modificado o projeto inteiro
+$ git reset bbc9044 --soft
+	volta para o estágio de addicionado
+	ideal para mudar a mensagem e commitar novamente.
+$ git reset bbc9044 --hard
+	volta para o commit selecionado e destrói os posteriores
+$ git diff 
+	mostra a diferença entre os arquivos apenas antes de git add .
+$ git diff <file> 
+	ve a diferença em arquivos específicos
+$ git diff a95be63..a5de038      l
+	ve a diferença entre commit  com …. <og .. log>
+	ideal para ver edições de setting no django
+$ git branch
+	verifica a branch atual
+
+$ git branch -a
+	mostra todas as branchs, mesmo não utilizadas
+$ git checkou -b ‘brachTest’
+	cria uma nova branch
+$ git checkout master
+	muda de branch
+$ git merge <nome da branch>
+	se tiver conflitos, terão que serem resolvidos
+$ gir rebase bbc9044
+	troca a base da branch
+$ git branch -D branchTest
+	remove a branch
+
+
