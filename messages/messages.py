@@ -3,5 +3,6 @@ display_messages = [
     'Fique tranquilo, tudo vai acabar bem!',
     'Olá mundo, estou aqui!!'
     'Acredite nos seus caminhos! Sempre!'
-    'Nunca faça delete sem where'
+    'Nunca faça delete sem where',
+    'Sempre apague as luzes antes de sair'
     ]
