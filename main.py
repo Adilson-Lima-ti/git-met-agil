@@ -2,7 +2,7 @@ import random
 import time
 from messages.messages import display_messages
 
-print ('Starting Project!!')
+print ('Starting Project 3..2..1..!!')
 time.sleep(2)
 while True:
     resposta = input('Deseja receber um Conselho? S/N: ')
